@@ -1,0 +1,62 @@
+/* Style global pour centrer le contenu sur la page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+/* Boîte de couleur avec dimensions fixes et couleur par défaut */
+#color-box {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 25px auto;
+  background-color: #3498db; /* Bleu par défaut */
+  border-radius: 10px;
+  transition: background-color 0.3s ease; /* Animation fluide lors du changement */
+}
+
+/* Style du bouton interactif */
+#change-color-btn {
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+#change-color-btn:hover {
+  background-color: #27ae60;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Effet au clic */
+#change-color-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
